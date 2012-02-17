@@ -33,13 +33,13 @@
     {
          print "$count não entrou senha: $passwd \n"; 
     } else { 
-         print "\n$count Entrou sistema foi hackeado com sucesso usando login $username e senha $passwd \n"; 
+         print "\n$count Entrou auth crakiado com sucesso usando login $username e senha $passwd \n"; 
          exit; 
     }
    $count++;
   }
  } else { 
-  echo "./cmd site.com/wp/ login passwordList.txt \n Wordpress Brute by Cooler_"; 
+  echo "./cmd site.com/wp/ login passwordList.txt \n Wordpress Brute by Cooler_  fuck yeah xD"; 
  }
 
 ?>
