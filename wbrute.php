@@ -1,5 +1,26 @@
 <?php
+/*
 
+it works , but is beta version, i will remake this in C on future...
+                      _                _       
+__      ___ __       | |__  _ __ _   _| |_ ___ 
+\ \ /\ / / '_ \ _____| '_ \| '__| | | | __/ _ \
+ \ V  V /| |_) |_____| |_) | |  | |_| | ||  __/
+  \_/\_/ | .__/      |_.__/|_|   \__,_|\__\___|
+         |_|                                   
+coded by Cooler_
+
+just another code to brute force wordpress AUTH
+
+contact: c00f3r[at]gmail[dot]com
+
+bugsec.com.br
+
+
+need word list in the file to crack
+if crack doe auto auth the wordpress using cookies...
+
+*/
 // Definindo encode pra UTF-8
 header('Content-type: text/html; charset="utf-8"',true);
 
@@ -50,7 +71,7 @@ if(($username)&&($url)&&($wordlist))
 
 $form="
         <body bgcolor=\"#FFFFFF\"><div align=\"center\">
-        <img src=\"wbrute.gif\"><font color=\"black\">
+        <img src=\"http://upload.wikimedia.org/wikipedia/en/thumb/7/70/Splatterhouse_arcadeflyer.png/250px-Splatterhouse_arcadeflyer.png\"><font color=\"black\">
         <p>Quebrador de senhas do Wordpress wbrute codado por Cooler_</p>
 	<form enctype=\"multipart/form-data\" action=\"wbrute.php\" method=\"POST\">
 	Alvo: <input type=\"text\" name=\"url\" value=\"http://Target.com/wp/\"><br>
@@ -61,8 +82,6 @@ $form="
 print $form;
 
 }
-//echo $result;
-//exit;
+
 
 ?>
-
