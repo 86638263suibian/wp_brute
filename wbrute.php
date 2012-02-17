@@ -63,7 +63,7 @@ if(($username)&&($url)&&($wordlist))
    {
         print "<font color=\"red\">não entrou $username , \"$passwd\"</font> <br>"; 
    } else { 
-        print "<font color=\"green\">entrou sistema foi hackeado com sucesso usando login $username e senha $passwd </font><br>\n"; 
+        print "<font color=\"green\">entrou auth crakiado com sucesso usando login $username e senha $passwd </font><br>\n"; 
         echo $result; exit; }
  }
 } else {
